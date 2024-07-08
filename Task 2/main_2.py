@@ -3,6 +3,7 @@ from dish import Dish
 from category import Category
 from menu import Menu
 
+
 if __name__ == "__main__":
     try:
         dish_1 = Dish("Pizza", 10)
@@ -30,4 +31,3 @@ if __name__ == "__main__":
 
     except ValueError as a:
         print(a)
-
